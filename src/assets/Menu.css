@@ -1,0 +1,10 @@
+.menuOption{
+    user-select: none;
+    height:30px;
+    margin-bottom:5px;
+    color: rgb(3, 67, 46);
+    background-color: yellow;
+}
+.active{
+    background-color: brown;
+}

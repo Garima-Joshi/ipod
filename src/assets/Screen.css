@@ -1,0 +1,26 @@
+.screen{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM8jun3Oewqe-yLbssmqNZRErsUzUnrKzOwQ&usqp=CAU") no-repeat ;
+    background-size: cover;
+    background-position: center;
+    height:45%;
+    position:absolute;
+    top:5%;
+    left:2%;
+    width: 95%;
+    border:2px rgb(118, 116, 116) ridge;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    user-select: none;
+}
+.menu{
+    height: 100%;
+    width:50%;
+    background-color: aqua;
+    position: absolute;
+    left:0;
+    border-radius: 0.5rem 0 0 0.5rem;
+    box-sizing: border-box;
+    padding:10px
+}

@@ -1,0 +1,11 @@
+.Ipod-body{
+    background-color: #C0C0C0;
+    box-shadow:inset 0 0 30px #5a5d5d;
+    height:500px;
+    width:300px;
+    border-radius: 2rem;
+    transform: translate(30%,30%);
+    color: white;
+  }
+  
+  
