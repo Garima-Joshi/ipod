@@ -1,0 +1,24 @@
+.music-option{
+    position: absolute;
+    left:10%;
+    top:10%;
+    height:80%;
+    width: 80%;
+    margin-bottom: 3px;
+    border-radius: 0.2rem;
+    transform: perspective(100px) translateZ(-20px);
+    transform-style: preserve-3d;
+    box-shadow:0 10px 10px 0px rgb(94, 92, 92);
+}
+
+p{
+    color: whitesmoke;
+    text-shadow: 2px 2px 8px #FF0000;
+}
+
+.overlay{
+    position:absolute;
+    height: 100%;
+    width:100%;
+    background:rgba(140, 44, 185, 0.311);
+}
