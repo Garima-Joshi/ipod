@@ -2,9 +2,10 @@
     user-select: none;
     height:30px;
     margin-bottom:5px;
-    color: rgb(3, 67, 46);
-    background-color: yellow;
-}
-.active{
-    background-color: brown;
+    width: 90%;
+    color: rgb(0, 4, 3);
+    font-weight: 600;
+    background-color: rgba(96, 247, 217, 0.299);
+    text-align: center;
+    border-radius: 0 10px 0 10px;
 }

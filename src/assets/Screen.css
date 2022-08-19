@@ -1,32 +1,70 @@
-.screen{
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM8jun3Oewqe-yLbssmqNZRErsUzUnrKzOwQ&usqp=CAU") no-repeat ;
+.screen {
+    background: url("https://i.pinimg.com/474x/4e/42/0f/4e420f062057cfed87e1797f3a205f64.jpg") no-repeat;
     background-size: cover;
     background-position: center;
-    height:45%;
-    position:absolute;
-    top:5%;
-    left:2%;
+    height: 45%;
+    position: absolute;
+    top: 5%;
+    left: 2%;
     width: 95%;
-    border:2px rgb(118, 116, 116) ridge;
+    border: 2px rgb(118, 116, 116) ridge;
     border-radius: 0.5rem;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     user-select: none;
 }
-.menu{
+
+.menu {
     height: 100%;
-    width:50%;
-    background-color: aqua;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(2px);
     position: absolute;
-    left:0;
+    left: 0;
     border-radius: 0.5rem 0 0 0.5rem;
     box-sizing: border-box;
-    padding:10px
+    padding: 10px
 }
-.music{
-    background-color: cadetblue;
-    height:100%;
+
+.menu p {
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.music,
+.subOption {
+    height: 100%;
     width: 100%;
     padding: none;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    backdrop-filter: blur(2px);
+}
+
+.subOption img {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 10px 10px 0px black;
+    border-radius: 2rem;
+
+}
+.subOption p{
+    position: absolute;
+    font-size: 1.7rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    left: 30%;
 }
